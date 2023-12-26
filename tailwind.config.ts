@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -7,14 +7,23 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      desktop: '1315px',
+      mobile: '650px',
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        breathe: {
+          //also move up and down slightly
+          '0%, 100%': { transform: 'scale(1)', rotate: '0deg' },
+          '50%': { transform: 'scale(0.95)', rotate: '2deg' },
+        },
+      },
+      animation: {
+        breathe: 'breathe 12s ease-in-out infinite',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;

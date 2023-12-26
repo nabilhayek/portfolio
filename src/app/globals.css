@@ -2,26 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-size: 14px;
+  color: #000;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+/* 1315px and down mediaqueries */
+
+.card-big {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+.card-small {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+@media screen and (max-width: 1315px) {
+  html,
+  body {
+    height: auto;
+  }
+  .card-big {
+    grid-area: span 1 / span 4 / span 1 / span 4;
+  }
+
+  .card-small {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html,
+  body {
+    height: auto;
+  }
+  .card-big {
+    grid-area: span 1 / span 4 / span 1 / span 4;
+  }
+
+  .card-small {
+    grid-area: span 1 / span 4 / span 1 / span 4;
+  }
 }

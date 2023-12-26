@@ -1,0 +1,20 @@
+.swiper-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-container::before,
+.swiper-container::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to right, #0e0e11, transparent);
+}
+
+.swiper-container::after {
+  right: 0;
+  transform: rotateZ(180deg);
+}
