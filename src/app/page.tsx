@@ -18,6 +18,7 @@ const projects = [
     imageUrl: '/rattspodden.png',
     role: 'Lead Developer & Project Manager',
     period: '2020 - 2021',
+    link: 'https://rattspodden.se',
     description:
       'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
@@ -26,42 +27,82 @@ const projects = [
     title: 'Lakritsroten',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/lakrits.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
   {
     title: 'Padelappen',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/padelappen.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
   {
     title: 'Versasec',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/versasec.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
   {
     title: 'Safety Direct',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/safetydirect.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
 
   {
     title: 'Enigio',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/enigio.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
   {
     title: 'Leojuliane',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/juliane.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
   {
     title: 'Techover',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/techover.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
   {
     title: 'Shotluckan',
     technologies: ['React Native', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     imageUrl: '/shotluckan.png',
+    role: 'Lead Developer & Project Manager',
+    period: '2020 - 2021',
+    link: 'https://rattspodden.se',
+    description:
+      'At Rättspodden I was responsible for building the mobile application using React Native as a Lead Developer & Project Manager. My work included building the application from scratch, implementing the design, and integrating the backend API & infrastructure. During my time at Rättspodden, I faced a series of challenges that ultimately contributed to my personal and professional growth.\n\n One of the pivotal lessons I learned during this period was the significance of effective time management. My attention to detail, while a valuable trait, occasionally posed challenges in meeting deadlines. Recognizing this, I took proactive measures to refine my time management skills. I adopted a systematic approach by creating prioritized task lists, enabling me to navigate through projects efficiently and ensuring optimal workflow.',
   },
 ];
 
